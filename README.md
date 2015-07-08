@@ -10,7 +10,7 @@ A maven archetype that will generate a new elastic beanstalk compatible war enab
 On the elastic beanstalk host, the libraries in the dependencies section of the generated pom will be included in /usr/share/tomcat8/lib-managed. Whenever a new version of this war is is deployed, the libs there will be automatically deleted and recrated by way of the 00-tomcat-setup.config script.
 
 # Usage
-1.  Follow configuration / setup steps described on the [aws-dynamodb-tomcat-session|https://github.com/aws/aws-dynamodb-tomcat-session] page.
+1.  Follow configuration / setup steps described on the [aws-dynamodb-tomcat-session](https://github.com/aws/aws-dynamodb-tomcat-session) readme.
 2.  You will need to first clean, compile and install this archetype. At the moment it is not hosted in maven central:
 
   ```
