@@ -23,14 +23,14 @@ A maven archetype that will generate a new war enabled for aws dynamodb session 
 
   ```
   ...
-                              <artifactItems>
-                                  <artifactItem>
-                                      <groupId>[wrapped war groupId]</groupId>
-                                      <artifactId>[wrapped war artifactId]</artifactId>
-                                      <version>[wrapped war version]</version>
-                                      <type>war</type>
-                                      <outputDirectory>${project.build.directory}/war-contents</outputDirectory>
-                                  </artifactItem>
-                              </artifactItems>
+    <artifactItems>
+        <artifactItem>
+            <groupId>[wrapped war groupId]</groupId>
+            <artifactId>[wrapped war artifactId]</artifactId>
+            <version>[wrapped war version]</version>
+            <type>war</type>
+            <outputDirectory>${project.build.directory}/war-contents</outputDirectory>
+        </artifactItem>
+    </artifactItems>
   ...
   ```
