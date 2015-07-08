@@ -7,7 +7,7 @@ A maven archetype that will generate a new elastic beanstalk compatible war enab
 2.  Create an .ebextensions directory in the war file that contains the scripts to configure tomcat.
 3.  Repackage new war+ebextensions layout as a new war.
 
-On the elastic beanstalk host, the libraries in the dependencies section of the generated pom will be included in /usr/share/tomcat8/lib-managed. Whenever a new version of this war is is deployed, the libs there will be automatically deleted and recrated by way of the 00-tomcat-setup.config script.
+On the elastic beanstalk host, the libraries in the dependencies section of the generated pom will be included in /usr/share/tomcat8/lib-managed. Whenever a new version of this war is is deployed, the libs there will be automatically deleted and recreated by way of the 00-tomcat-setup.config script.
 
 # Usage
 1.  Follow configuration / setup steps described on the [aws-dynamodb-tomcat-session](https://github.com/aws/aws-dynamodb-session-tomcat) readme.
