@@ -19,7 +19,7 @@ On the elastic beanstalk host, the libraries in the dependencies section of the 
 
   ```
   mvn archetype:generate \
-  -DarchetypeGroupId=com.rapid7.aws \
+  -DarchetypeGroupId=com.rapid7.aws.archetype \
   -DarchetypeArtifactId=aws-dynamodb-tomcat-eb-archetype \
   -DarchetypeVersion=1.0-SNAPSHOT \
   -DgroupId=<YOURGROUPID> \
